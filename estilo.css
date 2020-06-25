@@ -1,0 +1,141 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #555359;
+}
+#area1:hover {
+  opacity:0.2;
+}
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:50%;
+}
+
+iframe{
+  display: block;
+  width: 70%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+rect:hover {
+  fill: rgba(179, 172, 172, 0.322);
+  opacity: 0.25;
+}
+
+#map01  {  position: absolute; left:34px; top:69px; opacity:0; }
+.header {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  text-align: center;
+  background: #555358;
+  color: white;
+  font-size: 20px;
+}
+.content2 {
+  border-radius: 1px;
+
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+
+  text-decoration: underline;
+}
+.formulario{
+  width: auto;
+  text-align: center;
+}
+
+.h2 {
+  text-align: left;
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 120px;
+  left: 8px;
+  background-color: #555358;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFF;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  
+}
+
+.main {
+  margin-left: 200px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+
+.box-wrap{
+  align-items:left;
+  margin:10%;
+}
+.box{
+  padding:10px;
+  margin:0%;
+  background:transparent;
+  border:0px solid #d6d6d6;
+  border-radius:0px;
+  transition:.1s all; 
+}
+.box-wrap:hover .box{
+  filter:blur(3px);
+  opacity:.5;
+  transform: scale(.98);
+  box-shadow:none;
+}
+.box-wrap:hover .box:hover{
+  transform:scale(1);
+  filter:blur(0px);
+  opacity:1;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+[contenteditable="true"] { 
+	padding: 10px; 
+	border: 1px dashed #aaa;
+	outline: 0;
+}
+[contenteditable="true"]:hover {
+	background-color: #666059ab;
+  	border: 1px dashed #aaa;
+}
+button {
+	margin-top: 10px;
+}
